@@ -1,24 +1,4 @@
 
-
-//menu dropdown
-
-// document.addEventListener('DOMContentLoaded', () => {
-    
-
-//     document.querySelector('.menu-arrow').addEventListener('click', () => {
-//         console.log('fnc')
-//         let menu = document.getElementsByClassName('menu-dropdown')
-//         menu.style.display = 'block'
-        
-//     })
-
-    
-// })
-
-
-
-
-
 // menu themes
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -405,7 +385,7 @@ function trendingsstarwars () {
 
 
 
- menu dropdown
+ //menu dropdown
 
  document.addEventListener('DOMContentLoaded', () => {
     
@@ -413,27 +393,15 @@ function trendingsstarwars () {
 let menu = document.querySelector('.menu-arrow')
 menu.addEventListener('onkeypress', () => {
         console.log('fnc')
-//         let menu = document.getElementsByClassName('menu-dropdown')
-//         menu.style.display = 'block'
+        let menu = document.getElementsByClassName('menu-dropdown')
+        menu.style.display = 'block'
         
-//     })
+    })
 
     
-// })   
+})   
 
     
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
