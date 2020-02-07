@@ -47,33 +47,47 @@ header {
       .nav-buttonarrow {
         display: flex;
         flex-direction: row;
+
+        .menu-button {
+          width: 145px;
+          height: 41px;
+          font-family: $FontPrimary;
+          text-decoration: none;
+          padding: 9px 27px;
+        }
       }
 
       .menu-arrow {
         width: 36px;
-        height: 40px;
-        padding: 9px 5px;
+        height: 41px;
+        padding: 9px;
         position: relative;
         display: inline-block;
+
+       
+
+        
       }
       .menu-dropdown {
-        width: 170px;
+        width: 180px;
         height: 102px;
         margin: -1px;
-        display: flex;
+        display: none;
         flex-direction: column;
         justify-content: space-between;
         position: absolute;
+        z-index: 1;
 
         li {
-          width: 150px;
-          height: 36px;
+          width: 160px;
+          height: 45px;
           margin: 5px 10px;
           display: inline-block;
           font-family: $FontPrimary;
           font-size: 16px;
           letter-spacing: 0;
-          line-height: 22px;
+          line-height: 40px;
+          padding-left: 5px;
 
           &:first-letter {
             text-decoration: underline;
@@ -83,14 +97,17 @@ header {
 
       .my-gifos {
         text-decoration: none;
-        padding-top: 10px;
-        padding-left: 10px;
+        padding: 8px;
         font-size: 16px;
         font-family: $FontPrimary;
         letter-spacing: 0;
         line-height: 18px;
-        width: 95px;
-        height: 32px;
+        width: 36px;
+        height: 41px;
+
+        &:first-letter {
+          text-decoration: underline;
+        }
       }
     }
   }

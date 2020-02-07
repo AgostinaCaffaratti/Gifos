@@ -36,11 +36,9 @@
         &:hover {
 
           background: $hoverBackground;
+          border: $hoverBorder;
 
-         span {
-               border: $hoverBorder;
-              
-           }
+         
        }
         
       }
@@ -65,7 +63,7 @@
       }
       .menu-dropdown{
          background: $boxColorSearch;
-         box-shadow: &boxShadow;
+         box-shadow: $boxShadow;
 
          li{
            background: #CCCCCC ;
@@ -81,6 +79,7 @@
        }
       .my-gifos{
         color: $textColor;
+        
         &:hover{
 
           border: 1px dotted #FFFFFF;

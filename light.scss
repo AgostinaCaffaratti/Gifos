@@ -31,11 +31,9 @@
         &:hover {
 
           background: $hoverBackground;
+          border: $hoverBorder;
 
-          span {
-            border: $hoverBorder;
-            
-        }
+          
         
       }
     }
