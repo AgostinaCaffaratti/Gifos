@@ -1,0 +1,161 @@
+@import "./variableslight";
+@import "./main.scss";
+
+// $background:#FFF4FD;
+// $primaryBtn: #F7C9F3;
+// $borderBtn: 1px solid #110038;
+// $textColor: #110038;
+// $BarColor: linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%);
+// $Shadow:  inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
+// $boxColorSearch: #b4b4b4;
+// $mainBarShadow: 0 1px 0 0 #110038;
+
+.light {
+    background-color: $background;
+    max-width: 1500px;
+    h1 {
+      background: $BarColor;
+      color: $textColor; 
+      box-shadow: $mainBarShadow;
+    }
+    .navbar-logo{
+        content: url(./gifOF_logo.png);
+      }
+
+      .menu-button {
+        background-color: $primaryBtn;
+        border: $borderBtn;
+        box-shadow: $Shadow;
+        color: $textColor;
+
+        &:hover {
+
+          background: $hoverBackground;
+
+          span {
+            border: $hoverBorder;
+            
+        }
+        
+      }
+    }
+
+   
+
+.menu-arrow{
+  background-color: $primaryBtn;
+  border: $borderBtn;
+  box-shadow: $Shadow;
+  color: $textColor;
+
+  &:hover {
+
+   background: $hoverBackground;
+    border:$hoverBorder;
+  
+
+ 
+}
+
+
+
+}
+.menu-dropdown{
+  background: $boxColorSearch;
+  box-shadow: &boxShadow;
+
+  li{
+    background: #CCCCCC ;
+   border: 1px solid #808080;
+    box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+
+    &:hover{
+      background: #FFF4FD;
+border: 1px solid #CCA6C9;
+box-shadow: inset -1px -1px 0 0 #E6DCE4, inset 1px 1px 0 0 #FFFFFF;
+    }
+  }
+}
+.my-gifos{
+ color: $textColor;
+ &:hover{
+
+   border: 1px dotted #110038;
+
+ }
+      }
+
+
+      .search-gifs {
+    
+        background-color: $boxColorSearch;
+        box-shadow: $boxShadow;
+        .buscar {
+          
+          color: $textColor;
+          background: $BarColor;
+        }
+        #miBusqueda {
+          width: 1040px;
+          height: 40px;
+          margin-top: 12px;
+          margin-left: 5px;
+        }
+        
+       }
+
+       .results{
+        background-color: $boxColorSearch;
+        box-shadow: $shadowBoxGifs;
+
+        p{
+          background: $resultsboxes;
+          border: $resultBoxesBorder;
+          box-shadow: $resultBoxesShadow;
+        }
+
+
+      }
+
+
+
+       .suggestions {
+        #sugerencias {
+          
+          background: #FFFAFE;
+          border: 1px solid #E6BBE2;
+          box-shadow: $boxShadow
+        }
+        .suggestedgifs {
+          
+          
+          div{
+              
+              background: $boxColorSearch;
+                box-shadow: $shadowBoxGifs;
+          
+          
+          p{
+            background: $BarColor;
+            color: $textColor;
+          }
+        }
+          
+        }
+      }
+
+
+      .trends{
+      
+      
+      
+ 
+        #tendencias{
+          
+          background: $searchBackground;
+          // border: $searchBorder;
+          box-shadow: $searchBorder;
+        }
+      }
+    
+    }
