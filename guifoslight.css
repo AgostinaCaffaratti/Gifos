@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header h1 {
+  width: 100%;
+  height: 20px;
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 12px;
+  margin-bottom: 1.5%;
+  padding-left: 8px;
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .navbar-container {
+  padding-right: 90px;
+  padding-left: 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin-bottom: 15px;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-top: 40px;
+}
+
+header .boxcrear {
+  width: 680px;
+  height: 386px;
+  margin-left: 378px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+header .boxcrear .title {
+  width: 670px;
+  height: 24px;
+  margin: 5px;
+}
+
+header .boxcrear .boxtitle {
+  width: 280;
+  height: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 30px 330px 17px 25px;
+}
+
+header .boxcrear .boxtitle .windowimage {
+  width: 30px;
+  height: 30px;
+}
+
+header .boxcrear .boxtitle .doing {
+  width: 280px;
+  height: 22px;
+  font-size: 16px;
+  font-family: "Chakra Petch", sans-serif;
+  margin-left: 16px;
+  font-weight: bold;
+}
+
+header .boxcrear .content {
+  width: 510px;
+  height: 190px;
+  margin-left: 73px;
+  font-family: "Chakra Petch", sans-serif;
+  line-height: 20px;
+}
+
+header .boxcrear .content p {
+  margin-bottom: 10px;
+}
+
+header .boxcrear .content ul {
+  list-style: none;
+}
+
+header .boxcrear .content ul li {
+  margin-bottom: 10px;
+}
+
+header .boxcrear .botones {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-right: 36px;
+  margin-top: 36px;
+}
+
+header .boxcrear .botones div button {
+  text-decoration: none;
+  width: 145px;
+  height: 36px;
+  font-family: "Chakra Petch", sans-serif;
+  text-decoration: none;
+  padding: 9px 27px;
+  margin-right: 16px;
+  border-radius: 1px;
+}
+
+.light {
+  background-color: #FFF4FD;
+  max-width: 1500px;
+}
+
+.light h1 {
+  background: -webkit-gradient(linear, right top, left top, from(#F7C9F3), to(#4180F6));
+  background: linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%);
+  color: #110038;
+  -webkit-box-shadow: 0 1px 0 0 #110038;
+          box-shadow: 0 1px 0 0 #110038;
+}
+
+.light .navbar-logo {
+  content: url(./gifOF_logo.png);
+}
+
+.light .boxcrear {
+  background-color: #E6E6E6;
+  -webkit-box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+          box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+}
+
+.light .boxcrear .title {
+  background-image: -webkit-gradient(linear, right top, left top, from(#F7C9F3), to(#4180F6));
+  background-image: linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%);
+  color: #FFFFFF;
+}
+
+.light .boxcrear .boxtitle p {
+  color: #110038;
+}
+
+.light .boxcrear div div .cancel {
+  background: #FFF4FD;
+  border: 1px solid #110038;
+  -webkit-box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.light .boxcrear div div .comenzar {
+  background: #F7C9F3;
+  border: 1px solid #110038;
+  -webkit-box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+}
+/*# sourceMappingURL=guifoslight.css.map */

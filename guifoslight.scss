@@ -1,0 +1,47 @@
+@import "./variableslight";
+@import "./guifosmain.scss";
+
+.light {
+    background-color: $background;
+    max-width: 1500px;
+    h1 {
+      background: $BarColor;
+      color: $textColor; 
+      box-shadow: $mainBarShadow;
+    }
+    .navbar-logo{
+        content: url(./gifOF_logo.png);
+      }
+
+      .boxcrear{
+        background-color: $boxColorSearch;
+        box-shadow: $boxShadow;
+        .title{
+            background-image: $BarColor;
+            color: $textColorSecondary;
+        }
+        .boxtitle{
+            p{
+                color: $textColor;
+            }
+        }
+
+        div{
+            div{
+                .cancel{
+                    background: $background;
+                    border: $borderBtn;
+                    box-shadow: $Shadow;
+                }
+            }
+
+            div{
+                .comenzar{
+                    background: $primaryBtn;
+                    border: $borderBtn;
+                    box-shadow: $Shadow;
+                }
+            }
+        }
+    }
+    }
