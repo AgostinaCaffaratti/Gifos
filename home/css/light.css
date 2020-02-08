@@ -271,11 +271,11 @@ header .navbar-container .navbar-menu .my-gifos:first-letter {
   margin-left: 100px;
   display: -ms-grid;
   display: grid;
-  /* -ms-grid-columns: (1fr)[4];
+  -ms-grid-columns: (1fr)[4];
       grid-template-columns: repeat(4, 1fr);
   grid-auto-rows: 300px;
   grid-auto-flow: row dense;
-  grid-gap: 1px; */
+  grid-gap: 1px;
 }
 
 #grid-contenedor img {
@@ -341,8 +341,8 @@ header .navbar-container .navbar-menu .my-gifos:first-letter {
 
 .light .menu-dropdown {
   background: #E6E6E6;
-  /* -webkit-box-shadow: .light .menu-dropdown boxShadow; */
-          /* box-shadow: .light .menu-dropdown boxShadow; */
+  -webkit-box-shadow: .light .menu-dropdown boxShadow;
+          box-shadow: .light .menu-dropdown boxShadow;
 }
 
 .light .menu-dropdown li {
